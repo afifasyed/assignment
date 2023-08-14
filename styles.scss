@@ -1,0 +1,58 @@
+$shadow-big: 0px 16px 48px rgba(0, 0, 0, 0.16);
+$shadow-small: 0px 3px 6px rgba(0, 0, 0, 0.16);
+$font-weights: (
+    "boldest":900,
+    "bolder":700,
+    "bold":600
+);
+$reg-size: 18px;
+$light-white: rgb(255, 255, 255);
+$basic-blue:rgb(20, 146, 230);
+$nunito: Nunito Sans;
+
+p,div {
+    color:black;
+    line-height:25px;
+    font-family:$nunito;
+}
+
+.my-button {
+    background-color: $basic-blue;
+    height:65px;
+    width:247px;
+    font-weight:map-get($font-weights,bold);
+    font-size:23px;
+    color:$light-white;
+    box-shadow: $shadow-big;
+    padding-top:8px;
+}
+.heading2 {
+    font-size:35px;
+}
+.heading1 {
+    font-size: $reg-size;
+    font-weight:map-get($font-weights,bold);
+}
+.bolder {
+    font-weight:map-get($font-weights,boldest);
+}
+.box2 {
+    background:$light-white;
+    box-shadow: $shadow-small;
+    border-radius:$reg-size;
+    max-width:308px;
+    min-height:320px;
+}
+h5 { 
+    font-size: 13px; 
+    font-family:$nunito;
+    font-weight:map-get($font-weights,bold);
+    line-height:15px;
+    
+}
+.my-box {
+    width:90%;
+    background:#F8FAFC;
+    box-shadow: $shadow-big;
+    border-radius:42px;
+}

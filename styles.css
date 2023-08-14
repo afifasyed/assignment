@@ -1,0 +1,51 @@
+p, div {
+  color: black;
+  line-height: 25px;
+  font-family: Nunito Sans;
+}
+
+.my-button {
+  background-color: rgb(20, 146, 230);
+  height: 65px;
+  width: 247px;
+  font-weight: 600;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16);
+  padding-top: 8px;
+}
+
+.heading2 {
+  font-size: 35px;
+}
+
+.heading1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+.box2 {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 18px;
+  max-width: 308px;
+  min-height: 320px;
+}
+
+h5 {
+  font-size: 13px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.my-box {
+  width: 90%;
+  background: #F8FAFC;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16);
+  border-radius: 42px;
+}/*# sourceMappingURL=styles.css.map */
